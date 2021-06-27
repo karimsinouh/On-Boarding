@@ -9,6 +9,7 @@ import androidx.compose.material.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.toArgb
 import com.google.accompanist.pager.ExperimentalPagerApi
+import com.karimsinouh.onBoarding.ui.onBoarding.OnBoarding
 import com.karimsinouh.onBoarding.ui.theme.OnBoardingTheme
 
 class MainActivity : ComponentActivity() {
@@ -27,8 +28,7 @@ class MainActivity : ComponentActivity() {
 
                 Surface(color = MaterialTheme.colors.background,modifier = Modifier.fillMaxSize()) {
 
-
-
+                    OnBoarding()
 
                 }
 
