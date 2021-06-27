@@ -9,7 +9,7 @@ import androidx.compose.material.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.toArgb
 import com.google.accompanist.pager.ExperimentalPagerApi
-import com.karimsinouh.onBoarding.ui.theme.ArtiklesTheme
+import com.karimsinouh.onBoarding.ui.theme.OnBoardingTheme
 
 class MainActivity : ComponentActivity() {
 
@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
 
 
-            ArtiklesTheme {
+            OnBoardingTheme {
 
                 window.statusBarColor=MaterialTheme.colors.background.toArgb()
                 window.navigationBarColor=MaterialTheme.colors.background.toArgb()
